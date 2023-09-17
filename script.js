@@ -113,10 +113,7 @@ function convertTo12HourFormat(time24Hour) {
   
     // Format the time in 12-hour format
     let formattedTime = date.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', hour12: true });
-  
-    // Remove the AM/PM part (optional)
-    formattedTime = formattedTime.replace(/(am|pm)/i, '').trim();
-  
+    
     return formattedTime;
   }
   
