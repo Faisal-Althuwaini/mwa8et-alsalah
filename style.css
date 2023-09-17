@@ -14,6 +14,9 @@
   }
 
   
+h1,h2,h3,h4,h5,h6 {
+    margin: 0px;
+}
 
 body {
     font-family: 'Tajawal', sans-serif;
@@ -36,9 +39,6 @@ body {
     font-weight:200 ;
 }
 
-h1,h2,h3,h4,h5,h6 {
-    margin: 0px;
-}
 
 #horizintal-line {
     margin: 50px 50px;
@@ -118,7 +118,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 
-@media only screen and (max-width: 768px) {
+@media  (max-width: 844px) {
 
 
     #prayer-timings-container {
@@ -138,11 +138,11 @@ h1,h2,h3,h4,h5,h6 {
     }
 
     .root-container {
-        height: 260vh;
+        height: 300vh;
     }
 
     #city-name {
-        font-size: 70px;
+        font-size: 60px;
     }
 
     .date-top {
