@@ -1,0 +1,151 @@
+/* animation */
+
+@keyframes fade-up {
+    0% {
+      opacity: 0;
+      transform: translateY(30px) scale(0.9);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: translateY(0) scale(1);
+  
+    }
+  }
+
+  
+
+body {
+    font-family: 'Tajawal', sans-serif;
+    background: linear-gradient(45deg,#bdc3c7,#2c3e50);
+}
+
+.root-container {
+    height: 100vh;
+}
+
+#city-name {
+    margin-top: 50px;
+    font-weight: 400;
+    font-size: 150px;
+    color: #ffffff;
+}
+
+.date-top {
+    font-size: 40px;
+    font-weight:200 ;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0px;
+}
+
+#horizintal-line {
+    margin: 50px 50px;
+    border-color: #ffffff ;
+}
+
+.card {
+    width: 12%;
+    height: 95%;
+    background-color: white;
+    font-size: 20px;
+    box-shadow: 0px 10px 5px rgb(0 0 0 / 30%);
+}
+
+#prayer-timings-container {
+    height: 300px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.header {
+    background: linear-gradient(45deg, #5c738a, #2c3e50);
+    color: white;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.header h1 {
+    font-weight: 400;
+    padding: 5px;
+    text-align: center;
+}
+
+.body {
+    height: 80%;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.time {
+    font-size: 55px;
+}
+
+.city-select-container {
+    margin-top: 120px;
+}
+
+.city-select {
+    font-family: 'Tajawal', sans-serif;
+    width: 300px;
+    height: 55px;
+    font-size: 30px;
+    background: none;
+    color: #2c3e50;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.city-select option {
+    background-color: #1c1833;
+    color: white;
+}
+
+.card {
+    border-radius: 25px;
+}
+
+.header {
+    border-top: 5px;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+
+    #prayer-timings-container {
+            height: 1920px;
+            margin-top: 80px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+        
+    }
+
+
+    .card {
+        width: 60%;
+        margin-top: 40px;
+    }
+
+    .root-container {
+        height: 260vh;
+    }
+
+    #city-name {
+        font-size: 70px;
+    }
+
+    .date-top {
+        font-size: 35px;
+    }
+}

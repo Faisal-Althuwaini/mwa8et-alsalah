@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap" rel="stylesheet">
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body style="direction: rtl;">
+    <div class="root-container ">
+
+        <div>
+
+            <!-- City name -->
+            <div style="color: white; margin-right: 40px;">
+                <h1 id="city-name" class="animate__animated  animate__fadeInDown">حائل</h1>
+                <h6 class="date-top animate__animated  animate__fadeInDown" id="date-melady">السبت 16 نوفمبر</h6>
+                <h6 class="date-top animate__animated  animate__fadeInDown" id="date-hijri">السبت 16 نوفمبر</h6>
+            </div>
+            <!-- // City name -->
+
+            <hr id="horizintal-line">
+
+            <!-- PRAYER TIMINGS -->
+            <div id="prayer-timings-container" class="animate__animated  animate__fadeIn">
+
+                <!-- CARD -->
+                <div class="card">
+
+                    <div class="header">
+                        <h1 >الفجر</h1>
+                    </div>
+
+                    <div class="body center">
+                        <h1 id="fajr-time" class="time">
+                            4:30
+                        </h1>
+                    </div>
+                </div>
+                 <!-- // CARD -->
+                                <!-- CARD -->
+                <div class="card">
+
+                    <div class="header">
+                        <h1 >الشروق</h1>
+                    </div>
+
+                    <div class="body center">
+                        <h1 id="sunrise-time" class="time">
+                            4:30
+                        </h1>
+                    </div>
+                </div>
+                 <!-- // CARD -->
+                                <!-- CARD -->
+                <div class="card">
+
+                    <div class="header">
+                        <h1>الظهر</h1>
+                    </div>
+
+                    <div class="body center">
+                        <h1 id="dhuhur-time" class="time">
+                            4:30
+                        </h1>
+                    </div>
+                </div>
+                 <!-- // CARD -->
+                                <!-- CARD -->
+                <div class="card">
+
+                    <div class="header">
+                        <h1>العصر</h1>
+                    </div>
+
+                    <div class="body center">
+                        <h1  id="asr-time"  class="time">
+                            4:30
+                        </h1>
+                    </div>
+                </div>
+                 <!-- // CARD -->
+                                <!-- CARD -->
+                <div class="card">
+
+                    <div class="header">
+                        <h1>المغرب</h1>
+                    </div>
+
+                    <div class="body center">
+                        <h1  id="sunset-time" class="time">
+                            4:30
+                        </h1>
+                    </div>
+                </div>
+                 <!-- // CARD -->
+                                <!-- CARD -->
+                <div class="card">
+
+                    <div class="header">
+                        <h1>العشاء</h1>
+                    </div>
+
+                    <div class="body center">
+                        <h1  id="isha-time" class="time">
+                            4:30
+                        </h1>
+                    </div>
+                </div>
+                 <!-- // CARD -->
+
+            </div>
+            <!-- // PRAYER TIMINGS -->
+
+            <!-- CHANGE CITY SELECT -->
+            <div class="center city-select-container animate__animated  animate__fadeIn">
+                <select  name="" id="cities-select" class="city-select">
+
+                </select>
+            </div>
+            <!-- // CHANGE CITY SELECT -->
+
+        </div>
+
+    </div>
+</body>
+
+<script src="/node_modules/axios/dist/axios.min.js"></script>
+<script src="/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+
+</html>
